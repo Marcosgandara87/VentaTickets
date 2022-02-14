@@ -1,0 +1,359 @@
+
+/** Utilidades **/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 14px; /* 1rem = 10px */
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nave{
+    background-color:#112018;
+    margin: 0px;
+    padding: 0;
+    
+}
+.col{
+    margin: 3px;
+
+
+}
+.nave div div{
+    
+    padding: 0 15px;
+}
+
+
+#oradores, #convier,#lugar{
+    color: grey;
+
+}
+#comprar{
+    color:rgba(11, 105, 35, 0.884);
+}
+
+#conferencia,#tit{
+    color: white;
+}
+
+
+a{
+color: white;
+text-decoration: none;
+}
+
+
+/*
+.navbar-nav  a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .navbar-nav a:hover::before {
+    transform: scaleX(1);
+  }
+ 
+  
+  /* ANIMATIONS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  /*
+  .navbar-nav  [data-animation="to-left"] a::before {
+    transform-origin: right;
+  }
+  
+  .navbar-nav  [data-animation="center"] a::before {
+    transform-origin: center;
+  }
+  
+/*
+
+
+
+
+
+/*.navbar-toggler{ 
+    color: black;
+    background-color: blanchedalmond;
+
+}*/
+
+.carruprinc .card-img-overlay{ /*acomodar texto */
+    position: absolute; 
+    top: 50%;   /* Cambiar bottom por top y los píxeles que necesites */
+    left: 60%;
+    right: 5%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    width: auto;  
+    height: 200px; 
+    text-align: right;
+}
+.carruprinc .card-title{ /* acomoda carrusel Grande*/
+    text-align: right;
+}
+.carruprinc .card-text{ /* acomoda carrusel Grande*/
+    text-align: right;
+}
+
+.carruprinc .carousel-item{ /* acomoda carrusel Grande*/
+    width: 100%;
+    height: 600px;
+  }
+
+.carruprinc .carousel-item:before{ /*opacar imagen*/
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+.btn-link{
+border-color:white;
+border-width: 0.2PX;
+text-decoration: none;
+color: white;
+
+}
+.card{
+    padding: 10px;
+}
+
+header div{
+    position: relative;
+    top: 10%;
+}
+
+
+.carrusa .carousel-item{ /* acomoda carrusel chico*/
+    width: 100%;
+    height: 250px;
+    
+  
+  }
+.carrusa{  /*carrusel chico*/
+    
+    color: white;
+    background-color: gray;
+    padding: 0%;
+    margin: 15px 0 ;
+    
+}
+
+
+
+.formu{
+    padding: 1% 30%;
+}
+
+
+
+.tx{
+    text-align: center;
+}
+
+
+.fot{
+    font-size: small;
+    background-color:#3498DB;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px  30px ;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: teal;
+}
+
+.text-muted{
+    margin: 0px;
+    padding: 0px;
+}
+
+.are{
+    margin: 0px;
+}
+.text-muted{
+    font-size: 10px;
+}
+
+.card-group{
+    padding: 0 15%;
+    border-style: none;
+    border-color: none;
+}
+.card{
+    border-color: none;
+    border-style: none;
+}
+
+.btn-sm{
+    font-weight: 700;
+    padding: 0;
+
+}
+.btn-warning{
+    color: black;
+}
+.btn-info{
+    color: white;
+}
+
+
+@media  (max-width: 990px) { 
+
+    .carruprinc .card-img-overlay{ /*acomodar texto */
+        font-size: 12px;
+        position: absolute; 
+        top: 20%;   /* Cambiar bottom por top y los píxeles que necesites */
+        left: 40%;
+        right: 5%;
+        z-index: 10;
+        color: #fff;
+        text-align: center;
+        width: auto;  
+        height: auto; 
+        text-align: right;
+    }
+
+    .nave div div{
+        padding: 0 ;
+    }
+
+    .formu{
+        padding: 1% 1%;
+    }
+    .carrusa .card-text{
+        font-size: 12px;
+    }
+
+    .carruprinc .carousel-item{ /* acomoda carrusel Grande*/
+        width: 100%;
+        height: 300px;
+      }
+
+    .card-group{
+        padding: 0 1%;
+        border-style: none;
+        border-color: none;
+        
+    }
+  
+
+}
+
+@media (min-width: 650px) and (max-width: 750px){
+
+    .container{
+        margin: auto;
+        
+    }
+    .card-group{
+        padding: 0;
+        border-style: none;
+        border-color: none;
+        width: 100%;
+        
+    }
+
+
+}
+
+@media (min-width: 360px) and (max-width: 541px){
+
+    div .card{
+       padding: 0 20%;
+        border-style: none;
+        border-color: none;
+        
+    }
+    .card-group{
+        
+        border-style: none;
+        border-color: none;
+        
+        
+    }
+
+    .carrusa .row{ /* acomoda carrusel chico*/
+        width: 100%;
+        height: 220px;
+        
+      
+      }
+      .carrusa .carousel-item{ /* acomoda carrusel chico*/
+        width: 100%;
+        height: 220px;
+        
+      
+      }
+}
+
+
+
+
+
+
+
+
+
+
+/*boton flotante robado*/
+
+.btn-flotante {
+    font-size: 16px; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */
+    background-color: grey; /* Color de fondo */
+    padding: 5px; /* Relleno del boton */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    }
+
+    .btn-flotante:hover {
+    background-color: #34A3DB; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    }
+
+    @media only screen and (max-width: 600px) {
+    .btn-flotante {
+    padding: 5px;
+    bottom: 20px;
+    right: 20px;
+    }
+    }
+
+
