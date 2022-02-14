@@ -32,6 +32,24 @@ body{
     padding: 0 15px;
 }
 
+.primer{
+    padding:5px; margin: 0; display: inline-block; border-color: brown; border-width: 1px; border-style: solid; 
+
+
+}
+
+
+.segundo{
+    padding:5px; margin: 0;display: inline-block; border-color: blue; border-width: 1px; border-style: solid; 
+
+
+}
+
+.tercer{
+
+    padding:5px;margin: 0;display: inline-block; border-color:yellow; border-width: 1px; border-style: solid; 
+}
+
 
 #oradores, #convier,#lugar{
     color: grey;
