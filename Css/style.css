@@ -14,6 +14,7 @@ body{
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 
 .nave{
@@ -32,22 +33,32 @@ body{
     padding: 0 15px;
 }
 
-.primer{
-    padding:5px; margin: 0; display: inline-block; border-color: brown; border-width: 1px; border-style: solid; 
+.align-items-center{
 
+    display: inline-block;
+    border-radius: 10px;
 
 }
 
 
+
+.primer{
+    padding:5px;
+    margin: 0; 
+    border:1px solid brown ;
+    
+}
+
+
 .segundo{
-    padding:5px; margin: 0;display: inline-block; border-color: blue; border-width: 1px; border-style: solid; 
+    padding:5px; margin: 0;; border-color: blue; border-width: 1px; border-style: solid; 
 
 
 }
 
 .tercer{
 
-    padding:5px;margin: 0;display: inline-block; border-color:yellow; border-width: 1px; border-style: solid; 
+    padding:5px;margin: 0;; border-color:yellow; border-width: 1px; border-style: solid; 
 }
 
 
@@ -67,6 +78,30 @@ body{
 a{
 color: white;
 text-decoration: none;
+}
+
+
+.align-items-center:hover{
+
+    color: red;
+    border-color:black;
+
+
+    
+}
+.align-items-center:active{
+
+    color: red;
+    border:3px solid black;
+
+
+}
+
+main {
+
+height: 95%;
+
+
 }
 
 
