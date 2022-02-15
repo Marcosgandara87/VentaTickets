@@ -4,7 +4,7 @@ var tot= 0
 var canti = 0
 var check = 0
 
-document.getElementById("Import").innerHTML = tot;
+//document.getElementById("Import").innerHTML = tot;
 function miFunc() {
  
    
@@ -26,5 +26,28 @@ function Borrar() {
     document.getElementById("Import").innerHTML = 0;
 
 }
+
+
+
+var uno  = document.getElementById('80');
+var dos  = document.getElementById('50');
+var tres  = document.getElementById('15');
+uno.addEventListener('click', reconocer);  
+dos.addEventListener('click', reconocer);
+tres.addEventListener('click', reconocer);
+
+function reconocer(evt)
+{
+    var enlace = evt.target;
+       
+        if (enlace.id != ""){
+        document.getElementById("check").value = enlace.id;
+        console.log(enlace.id)
+    }
+
+    //var arrayNombre = enlace.id.split("_");
+}
+
+
 
 

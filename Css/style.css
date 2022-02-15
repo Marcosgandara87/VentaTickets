@@ -85,9 +85,8 @@ text-decoration: none;
 
     color: red;
     border-color:black;
-
-
-    
+    cursor:pointer;
+     
 }
 .align-items-center:active{
 
