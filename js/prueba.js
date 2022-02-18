@@ -43,6 +43,9 @@ function reconocer(evt)
         if (enlace.id != ""){
         document.getElementById("check").value = enlace.id;
         console.log(enlace.id)
+
+
+        
     }
 
     //var arrayNombre = enlace.id.split("_");
